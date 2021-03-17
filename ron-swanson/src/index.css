@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2015/07/31/06/50/forest-868715_960_720.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #556B2F		;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'DM Sans', "sans-serif";
+}
+.frontPageCatchAllContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 1.8rem;
+}
+.contentCard {
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 1rem 1rem 1rem 1rem black, -1rem -1rem 1.5rem 0rem black;
+  border-radius: 1rem;
+  background-color: #556B2F;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.actualQuote {
+  font-weight: bold;
+}
+button {
+  border-radius: 1rem;
+  border: .5rem ridge black;
+  background-color: #FFE4B5;
+  color: #556B2F;
+  font-weight: bold;
+}
+.loadingMessage {
+  color: #FFE4B5;
+  font-weight: bold;
+}
